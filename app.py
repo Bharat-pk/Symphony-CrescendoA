@@ -35,4 +35,4 @@ api.add_resource(Employee, "/Employee/<int:id>") #GET, PUT, DELETE
 
 if __name__ == "__main__":
     db.init_app(app)
-    app.run(debug=True)
+    app.run()
